@@ -1,0 +1,2 @@
+const nama="Ibrahim";
+na

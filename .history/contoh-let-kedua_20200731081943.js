@@ -1,0 +1,3 @@
+function getMouse(){
+    mouse="molucca"
+}

@@ -1,0 +1,3 @@
+function getWater(){
+    water="orange"
+}
