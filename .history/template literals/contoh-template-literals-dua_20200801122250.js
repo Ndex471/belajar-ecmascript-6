@@ -1,0 +1,2 @@
+Template literals juga dapat membaca line space secara 
+langsung tanpa harus menggunakan escape character. 
