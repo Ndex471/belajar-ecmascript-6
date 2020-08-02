@@ -31,4 +31,4 @@ GUNAWAN KURNIYA AJI
 // function expression
 //const sayName = function (name) {
     //console.log(`Nama saya ${name}`)
-//}
+}

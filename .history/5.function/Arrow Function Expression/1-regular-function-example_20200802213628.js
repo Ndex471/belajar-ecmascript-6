@@ -10,7 +10,7 @@ membuat fungsi sebagai class dengan hadirnya keyword class , menetapkan nilai
 default pada parameter fungsi, dan sebagainya.
  */
 
-//regular fungsi sebagai callback
+
 const upperizedNames = ["Gunawan", "Kurniya", "Aji"]
     .map(function(name) {
         return name.toUpperCase();
@@ -21,14 +21,3 @@ console.log(...upperizedNames);
 /* output:
 GUNAWAN KURNIYA AJI
 */
-
-// function declaration
-//function sayHello(greet) {
-    //console.log(`${greet}!`);
-//}
- 
- 
-// function expression
-//const sayName = function (name) {
-    //console.log(`Nama saya ${name}`)
-//}
