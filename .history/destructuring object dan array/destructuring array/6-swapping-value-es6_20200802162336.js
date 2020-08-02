@@ -5,7 +5,7 @@ console.log("Sebelum swap");
 console.log("Nilai a: " + a);
 console.log("Nilai b: " + b);
 /*array destructuring assignment kita bisa menukar nilai variabel dengan
-mudah dan tentu tanpa membuat variabel extra*/
+mudah dan tentu tanpa membuat variabel extra.
 [a, b] = [b, a]
 
 console.log("Setelah swap");

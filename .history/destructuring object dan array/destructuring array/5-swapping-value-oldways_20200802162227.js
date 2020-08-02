@@ -2,7 +2,7 @@ var a = 1;
 var b = 2;
 var temp;
 /**
- * Variabel penengah temp
+ * Variabel penengah
 dibutuhkan untuk menyimpan data sementara pada variabel yang akan ditukar.
 Hal ini menjadi kurang efektif karena kita harus membuat variabel baru yang
 sebenarnya hanya bersifat sementara.

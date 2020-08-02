@@ -1,12 +1,14 @@
-let a = 1;
-let b= 2;
-
+var a = 1;
+var b = 2;
+var temp;
+/** */
 console.log("Sebelum swap");
 console.log("Nilai a: " + a);
 console.log("Nilai b: " + b);
-/*array destructuring assignment kita bisa menukar nilai variabel dengan
-mudah dan tentu tanpa membuat variabel extra*/
-[a, b] = [b, a]
+
+temp = a;
+a = b;
+b = temp;
 
 console.log("Setelah swap");
 console.log("Nilai a: " + a);
