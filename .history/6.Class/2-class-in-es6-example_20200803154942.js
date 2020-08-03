@@ -1,0 +1,1 @@
+2-class-in-es6-example.js
