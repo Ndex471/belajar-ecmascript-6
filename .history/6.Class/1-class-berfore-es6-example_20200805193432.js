@@ -14,19 +14,8 @@ behaviour/method dan realisasi dari sebuah blueprint tersebut disebut instance.
  * Jika berbicara mengenai blueprint, JavaScript memiliki konsep untuk membuatnya
 tanpa melalui class. Konsep tersebut adalah prototype .
  */
-/**
- * Sebelum ES6, Hal yang paling mendekati dengan class yaitu membuat sebuah
-objek menggunakan constructor function dan keyword new , lalu untuk
-menambahkan method kita gunakan konsep prototype .
- */
-/**
- * ika kita menyimpan method pada constructor maka method
-tersebut akan selalu dibuat ketika instance dibuat. Ini bukan pendekatan yang
-baik karena jika method memiliki kode yang banyak, maka akan memakan
-memori yang banyak.
-Sedangkan jika menggunakan prototype, method hanya dibuat satu kali. Dan
-method tersebut diwarisi kepada setiap instance yang dibuat
- */
+/** */
+
 function Car(manufacture, color) {
     this.manufacture = manufacture;
     this.color = color;
@@ -48,13 +37,6 @@ Car.prototype.info = function () {
 var johnCar = new Car("Honda", "Red");
 johnCar.startEngines();
 johnCar.info();
-/**
- * Car merupakan constructor function yang akan membuat
-instance Car baru setiap kali kode new Car() dieksekusi. Melalui Car.prototype ,
-method startEngines() dan carInfo() diwarisi pada setiap instance Car yang
-dibuat, sehingga johnCar (sebagai instance Car ) dapat mengakses kedua method
-tersebut.
- */
 
 /* output: 
 Mobil dinyalakan...

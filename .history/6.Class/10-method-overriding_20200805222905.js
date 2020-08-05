@@ -1,8 +1,8 @@
-/*PPada bagan di atas kita dapat lihat class Car , Motorcycle , Plane , dan Helicopter
+/PPada bagan di atas kita dapat lihat class Car , Motorcycle , Plane , dan Helicopter
 memiliki banyak properti yang sama seperti lisencePlate , manufacture , dan
 engineActive . Kemudian memiliki beberapa method yang sama seperti
-startEngines() , info() , dan parking() .*hoop
-class Vehicle {*/
+startEngines() , info() , dan parking() .*
+class Vehicle {
     constructor(licensePlate, manufacture) {
         this.licensePlate = licensePlate;
         this.manufacture = manufacture;

@@ -12,3 +12,6 @@ class Car {
 }
 
 const johnCar = new Car("Honda", "Red");
+/*Pembuatan class menggunakan ES6 lebih ketat dibandingkan dengan constructor
+function, di mana dalam pembuatan instance wajib menggunakan keyword new .
+Jika kita tidak menuliskannya, maka akan terjadi error

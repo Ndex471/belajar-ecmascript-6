@@ -1,7 +1,5 @@
 /**
- * Dengan menggunakan class , walaupun kita menuliskan method pada body class,
-namun method tersebut tetap berada pada prototype chain miliki instance yang
-terbuat.
+ * 
  */
 class Car {
     constructor(manufacture, color) {

@@ -1,11 +1,5 @@
 /**
- * Perhatikan juga ketika kita menerapkan getter/setter pada properti class. Kita
-perlu mengubah atau membedakan penamaan properti aslinya dengan property
-accessor yang kita buat. Berdasarkan code convention yang ada kita perlu
-mengubah properti asli class-nya dengan menambahkan underscore di depan
-nama propertinya ( _color ). Tanda underscore berfungsi sebagai tanda bahwa
-properti _color tidak sebaiknya diakses langsung, namun harus melalui property
-accessor (getter/setter).
+ * 
  */
 class Car {
     constructor(manufacture, color) {

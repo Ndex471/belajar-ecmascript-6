@@ -1,8 +1,5 @@
-/*PPada bagan di atas kita dapat lihat class Car , Motorcycle , Plane , dan Helicopter
-memiliki banyak properti yang sama seperti lisencePlate , manufacture , dan
-engineActive . Kemudian memiliki beberapa method yang sama seperti
-startEngines() , info() , dan parking() .*hoop
-class Vehicle {*/
+
+class Vehicle {
     constructor(licensePlate, manufacture) {
         this.licensePlate = licensePlate;
         this.manufacture = manufacture;
@@ -31,26 +28,17 @@ class Vehicle {*/
     }
  
     droveOff() {
-      console.log(`Kendaraan ${this.licensePlate} melaju!`);
+    console.log(`Kendaraan ${this.licensePlate} melaju!`);
     }
  
     openDoor() {
-      console.log(`Membuka pintu!`);
-    }
- 
-    /* overriding method info dari parent class */
-    info() {
-      super.info();
-      console.log(`Jumlah roda: ${this.wheels}`);
+    console.log(`Membuka pintu!`);
     }
  }
  
- const johnCar = new Car("H121S", "Honda", 4);
- johnCar.info();
+ const car = new Car("H121S", "Honda", 4);
+ car.startEngines();
  
  /* output:
- Nomor Kendaraan: H121S
- Manufacture: Honda
- Mesin: Inactive
- Jumlah roda: 4
+ Mesin kendaraan H121S dinyalakan!
  */

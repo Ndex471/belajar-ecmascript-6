@@ -48,13 +48,7 @@ Car.prototype.info = function () {
 var johnCar = new Car("Honda", "Red");
 johnCar.startEngines();
 johnCar.info();
-/**
- * Car merupakan constructor function yang akan membuat
-instance Car baru setiap kali kode new Car() dieksekusi. Melalui Car.prototype ,
-method startEngines() dan carInfo() diwarisi pada setiap instance Car yang
-dibuat, sehingga johnCar (sebagai instance Car ) dapat mengakses kedua method
-tersebut.
- */
+
 
 /* output: 
 Mobil dinyalakan...

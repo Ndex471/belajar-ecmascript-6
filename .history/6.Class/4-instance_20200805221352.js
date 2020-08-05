@@ -1,5 +1,6 @@
 /**
- * Instance merupakan objek yang memiliki properti dan method yang telah ditentukan oleh
+ * Instance
+merupakan objek yang memiliki properti dan method yang telah ditentukan oleh
 blueprint-nya (class), atau singkatnya adalah objek yang merupakan hasil
 realisasi dari sebuah blueprint.
  */

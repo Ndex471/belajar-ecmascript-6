@@ -12,12 +12,3 @@ class Car {
         this.enginesActive = false;
     }
 }
-/**
- * constructor biasanya hanya digunakan untuk menetapkan nilai awal pada
-properti berdasarkan nilai yang dikirimkan pada constructor. Namun sebenarnya
-kita juga dapat menuliskan logika di dalam constructor jika memang kita
-memerlukan beberapa kondisi sebelum nilai properti diinisialisasi.
-Kita juga melihat penggunaan this pada constructor. Konteks dalam class,
-keyword this merujuk pada instance dari class tersebut. Sehingga this dapat
-digunakan untuk mengelola properti yang terdapat pada instance.
- */

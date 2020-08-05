@@ -3,9 +3,7 @@
 sugar dari konsep prototype yang sudah ada.
  */
 /**
- * “Ketika kita hendak membuat sebuah constructor function ataupun class. Secara
-code convention (aturan penulisan), gunakan CamelCase dalam penamaannya.
-Contohnya Car daripada car , SportCar daripada sportCar atau Sportcar ”
+ * 
  */
 class Car {
     

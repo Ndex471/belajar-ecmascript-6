@@ -15,10 +15,7 @@ class Car {
 const johnCar = new Car("Honda", "Red");
 const adamCar = new Car("Tesla", "Black");
 /**
- * Variabel johnCar dan adamCar merupakan sebuah objek dari Car . Tentu
-keduanya akan memiliki properti manufacture , color , dan enginesActive . Namun
-pada output kita melihat bahwa nilai dari properti kedua objek tersebut berbeda,
-karena kita dapat memberikan nilai yang berbeda pada saat objeknya dibuat.
+ * 
  */
 console.log(johnCar.manufacture);
 console.log(adamCar.manufacture);
