@@ -49,9 +49,7 @@ class Vehicle {
         super(licensePlate, manufacture);
         this.wheels = wheels;
     }
-/**
- * Keyword super digunakan untuk mengakses properti dan method yang ada pada induk class ketika berada pada child class. Jadi super(lisencePlate, manufacture) di atas berarti kita mengakses constructor dari parent class dan mengirimkan lisencePlate, dan manufacture sebagai data yang dibutuhkan olehnya agar objek (instance) Car berhasil dibuat.
- */
+ 
     droveOff() {
     console.log(`Kendaraan ${this.licensePlate} melaju!`);
     }

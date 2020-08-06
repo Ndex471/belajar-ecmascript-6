@@ -4,18 +4,7 @@ memiliki banyak properti yang sama seperti lisencePlate , manufacture , dan
 engineActive . Kemudian memiliki beberapa method yang sama seperti
 startEngines() , info() , dan parking() .
  */
-/**
- * Tidak ada masalah dengan kode tersebut, tetapi jika kita akan membuat kelas lainnya seperti Motorcycle, Plane, dan Helicopter maka kita harus menuliskan properti dan method yang sama secara berulang. 
-
-Dengan teknik inheritance, kita bisa mengelompokkan properti dan method yang sama. Caranya dengan membuat sebuah kelas baru yang nantinya akan diturunkan sifatnya pada class lain:
- */
-/**
- * Ketika class Vehicle telah dibuat, kelas lainnya dapat melakukan extends pada kelas tersebut untuk mewarisi sifatnya. Dalam pewarisan, class Vehicle dapat disebut sebagai super atau parent class. Kelas yang mewarisi sifat dari parent class disebut dengan child class.
-
-Pada JavaScript jika kita ingin mewariskan sifat class, lakukan dengan keyword extends
- */
-//kita buat class Vehicle yang nantinya akan kita gunakan sebagai parent class.
-
+/
 /**
  * Dengan begitu selain properti dan method yang terdapat di dalamnya, class Car
 juga dapat mengakses seluruh properti dan method yang terdapat pada class
@@ -49,9 +38,7 @@ class Vehicle {
         super(licensePlate, manufacture);
         this.wheels = wheels;
     }
-/**
- * Keyword super digunakan untuk mengakses properti dan method yang ada pada induk class ketika berada pada child class. Jadi super(lisencePlate, manufacture) di atas berarti kita mengakses constructor dari parent class dan mengirimkan lisencePlate, dan manufacture sebagai data yang dibutuhkan olehnya agar objek (instance) Car berhasil dibuat.
- */
+ 
     droveOff() {
     console.log(`Kendaraan ${this.licensePlate} melaju!`);
     }

@@ -22,10 +22,8 @@ method yang tidak dapat dipanggil oleh instance dari class, namun dapat
 dipanggil melalui class-nya sendiri.
 Pada ES6 class kita dapat membuat static method dengan menambahkan
 keyword static sebelum deklarasi method-nya*/
-
-/*Kemudian untuk memanggil methodnya kita bisa panggil melalui class
+//Kemudian untuk memanggil methodnya kita bisa panggil melalui class
 VehicleFactory kemudian repair()*/
-
 class Vehicle {
    constructor(licensePlate, manufacture) {
       this.licensePlate = licensePlate;

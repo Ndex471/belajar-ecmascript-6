@@ -1,7 +1,10 @@
-/*Pada bagan di atas kita dapat lihat class Car , Motorcycle , Plane , dan Helicopter
+/**
+ * Pada bagan di atas kita dapat lihat class Car , Motorcycle , Plane , dan Helicopter
 memiliki banyak properti yang sama seperti lisencePlate , manufacture , dan
 engineActive . Kemudian memiliki beberapa method yang sama seperti
-startEngines() , info() , dan parking() .*hoop*/
+startEngines() , info() , dan parking() .
+ */
+
 /**
  * pada constructor class Car , kita melihat penggunaan super() , apa itu
 maksudnya? Keyword super digunakan untuk mengakses properti dan method
@@ -13,9 +16,6 @@ Penggunaan super sangat berguna ketika kita hendak menjalankan method
 overriding pada method parent. Contohnya kita akan melakukan method
 overriding pada method info() dengan menambahkan informasi jumlah roda
 pada mobil
- */
-/**
- * Dalam melakukan pewarisan kelas, tidak ada tingkatan yang membatasinya. Maksudnya, kita dapat mewariskan sifat kelas A pada kelas B, lalu kelas B mewarisi sifatnya kembali pada kelas C dan selanjutnya. Sama halnya dengan Nenek kita mewarisi sifatnya kepada orang tua kita kemudian orang tua kita mewarisi sifatnya kepada kita. 
  */
 class Vehicle {
     constructor(licensePlate, manufacture) {
@@ -46,26 +46,17 @@ class Vehicle {
     }
  
     droveOff() {
-      console.log(`Kendaraan ${this.licensePlate} melaju!`);
+    console.log(`Kendaraan ${this.licensePlate} melaju!`);
     }
  
     openDoor() {
-      console.log(`Membuka pintu!`);
-    }
- 
-    /* overriding method info dari parent class */
-    info() {
-      super.info();
-      console.log(`Jumlah roda: ${this.wheels}`);
+    console.log(`Membuka pintu!`);
     }
  }
  
- const johnCar = new Car("H121S", "Honda", 4);
- johnCar.info();
+ const car = new Car("H121S", "Honda", 4);
+ car.startEngines();
  
  /* output:
- Nomor Kendaraan: H121S
- Manufacture: Honda
- Mesin: Inactive
- Jumlah roda: 4
+ Mesin kendaraan H121S dinyalakan!
  */

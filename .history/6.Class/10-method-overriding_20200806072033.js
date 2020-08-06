@@ -1,22 +1,7 @@
 /*Pada bagan di atas kita dapat lihat class Car , Motorcycle , Plane , dan Helicopter
 memiliki banyak properti yang sama seperti lisencePlate , manufacture , dan
 engineActive . Kemudian memiliki beberapa method yang sama seperti
-startEngines() , info() , dan parking() .*hoop*/
-/**
- * pada constructor class Car , kita melihat penggunaan super() , apa itu
-maksudnya? Keyword super digunakan untuk mengakses properti dan method
-yang ada pada induk class ketika berada pada child class. Jadi
-super(lisencePlate, manufacture) di atas berarti kita mengakses constructor dari
-parent class dan mengirimkan lisencePlate , dan manufacture sebagai data yang
-dibutuhkan olehnya agar objek (instance) Car berhasil dibuat.
-Penggunaan super sangat berguna ketika kita hendak menjalankan method
-overriding pada method parent. Contohnya kita akan melakukan method
-overriding pada method info() dengan menambahkan informasi jumlah roda
-pada mobil
- */
-/**
- * Dalam melakukan pewarisan kelas, tidak ada tingkatan yang membatasinya. Maksudnya, kita dapat mewariskan sifat kelas A pada kelas B, lalu kelas B mewarisi sifatnya kembali pada kelas C dan selanjutnya. Sama halnya dengan Nenek kita mewarisi sifatnya kepada orang tua kita kemudian orang tua kita mewarisi sifatnya kepada kita. 
- */
+startEngines() , info() , dan parking() .*hoop
 class Vehicle {
     constructor(licensePlate, manufacture) {
         this.licensePlate = licensePlate;

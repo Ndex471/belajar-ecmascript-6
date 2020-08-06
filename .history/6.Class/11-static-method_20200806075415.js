@@ -12,7 +12,7 @@ classnya terlebih dahulu. Sehingga untuk memanggil repair() , kita perlu membuat
 instance dari class VehicleFactory
  */
 
-/*Kode tersebut berjalan sesuai harapan namun tidak efektif. Mengapa? Karena
+Kode tersebut berjalan sesuai harapan namun tidak efektif. Mengapa? Karena
 kita perlu membuat instance untuk sekedar memanggil satu fungsi dari class-nya
 tersebut. Membuat instance adalah membuat sebuah objek baru yang terbentuk
 melalui blueprint sehingga membutuhkan memori ekstra. Jika kita dapat
@@ -21,11 +21,7 @@ inilah kita membutuhkan sebuah static method. Static method merupakan
 method yang tidak dapat dipanggil oleh instance dari class, namun dapat
 dipanggil melalui class-nya sendiri.
 Pada ES6 class kita dapat membuat static method dengan menambahkan
-keyword static sebelum deklarasi method-nya*/
-
-/*Kemudian untuk memanggil methodnya kita bisa panggil melalui class
-VehicleFactory kemudian repair()*/
-
+keyword static sebelum deklarasi method-nya
 class Vehicle {
    constructor(licensePlate, manufacture) {
       this.licensePlate = licensePlate;

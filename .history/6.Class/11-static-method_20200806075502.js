@@ -25,7 +25,6 @@ keyword static sebelum deklarasi method-nya*/
 
 /*Kemudian untuk memanggil methodnya kita bisa panggil melalui class
 VehicleFactory kemudian repair()*/
-
 class Vehicle {
    constructor(licensePlate, manufacture) {
       this.licensePlate = licensePlate;

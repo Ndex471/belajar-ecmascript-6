@@ -13,9 +13,7 @@ Penggunaan super sangat berguna ketika kita hendak menjalankan method
 overriding pada method parent. Contohnya kita akan melakukan method
 overriding pada method info() dengan menambahkan informasi jumlah roda
 pada mobil
- */
-/**
- * Dalam melakukan pewarisan kelas, tidak ada tingkatan yang membatasinya. Maksudnya, kita dapat mewariskan sifat kelas A pada kelas B, lalu kelas B mewarisi sifatnya kembali pada kelas C dan selanjutnya. Sama halnya dengan Nenek kita mewarisi sifatnya kepada orang tua kita kemudian orang tua kita mewarisi sifatnya kepada kita. 
+
  */
 class Vehicle {
     constructor(licensePlate, manufacture) {
