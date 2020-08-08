@@ -4,12 +4,6 @@ diperintahkan pada sebuah fungsi asynchronous kemudian akan
 dipanggil/digunakan ketika tugas itu selesai.
 Bagaimana cara melakukannya? Yang pertama kita tambahkan parameter
 dengan nama callback pada fungsi asynchronous.
-
-Kemudian kita panggil/gunakan callback yang diisikan dengan data yang akan
-dibawa (cake) ketika task selesai dilakukan.
-
-Setelah menggunakan callback, fungsi tidak perlu lagi mengembalikan nilai.
-Sehingga kita bisa hapus kode return cake;
  */
 const getCake = callback => {
     let cake = null;

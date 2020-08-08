@@ -16,7 +16,6 @@ kita dijalankan secara asynchronous. Fungsi ini menerima dua buah parameter.
 Pertama adalah fungsi yang akan dijalankan secara asynchronous, dan kedua
 adalah nilai number dalam milisecond sebagai nilai tunggu sebelum fungsi
 dijalankan
-Namun nyatanya setTimeout() tidak akan menghentikan JavaScript untukmelakukan eksekusi kode pada baris berikutnya.
  */
 
 console.log("Selamat datang!");
