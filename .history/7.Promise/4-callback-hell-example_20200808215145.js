@@ -19,14 +19,6 @@ Promise merupakan sebuah objek yang digunakan untuk
 membuat sebuah perhitungan (kode) ditangguhkan dan berjalan secara
 asynchronous. Untuk membuat objek promise, kita gunakan keyword new diikuti
 dengan constructor dari Promise
-
-1. const coffee = new Promise();
-Namun jika kita jalankan kode tersebut, akan mengakibatkan eror seperti ini:
-1.  ERROR: Promise resolver undefined is not a function 
-Di dalam constructor Promise kita perlu menetapkan resolver function atau bisa
-disebut executor function di mana fungsi tersebut akan dijalankan secara
-otomatis ketika constructor Promise dipanggil.
-
 */
 function gatheringIngredients(rawIngridient, callback) {
     console.log("Menyiapkan bahan ....");

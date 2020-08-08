@@ -27,6 +27,7 @@ Di dalam constructor Promise kita perlu menetapkan resolver function atau bisa
 disebut executor function di mana fungsi tersebut akan dijalankan secara
 otomatis ketika constructor Promise dipanggil.
 
+
 */
 function gatheringIngredients(rawIngridient, callback) {
     console.log("Menyiapkan bahan ....");

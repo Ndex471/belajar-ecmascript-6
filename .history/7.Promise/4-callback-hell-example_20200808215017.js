@@ -7,26 +7,6 @@ Dengan Promise, kita dapat meminimalisir callback hell dan mengubahnya
 menjadi kode yang sangat mudah dibaca. Promise ini dapat
 menggantikan peran callback dengan menggunakan ciri khas fungsi .then -nya
 itu.
-
-Nah, Promise memiliki perilaku yang sama dengan analogi yang digambarkan
-tadi. Dalam promise terdapat 3 (tiga) kondisi, yakni:
-● Pending (Janji sedang dalam proses)
-● Fulfilled (Janji terpenuhi)
-● Rejected (Janji gagal terpenuhi)
-
-https://developer.mozilla.org/id/docs/Web/JavaScript/Reference/Global_Objects/Promise
-Promise merupakan sebuah objek yang digunakan untuk
-membuat sebuah perhitungan (kode) ditangguhkan dan berjalan secara
-asynchronous. Untuk membuat objek promise, kita gunakan keyword new diikuti
-dengan constructor dari Promise
-
-1. const coffee = new Promise();
-Namun jika kita jalankan kode tersebut, akan mengakibatkan eror seperti ini:
-1.  ERROR: Promise resolver undefined is not a function 
-Di dalam constructor Promise kita perlu menetapkan resolver function atau bisa
-disebut executor function di mana fungsi tersebut akan dijalankan secara
-otomatis ketika constructor Promise dipanggil.
-
 */
 function gatheringIngredients(rawIngridient, callback) {
     console.log("Menyiapkan bahan ....");

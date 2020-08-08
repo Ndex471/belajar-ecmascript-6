@@ -23,7 +23,7 @@ reject() dengan membawa pesan rejection "Mesin Kopi tidak bisa digunakan!".
 1. /* output:
 2. Promise { <rejected> 'Mesin Kopi tidak bisa digunakan!' }
 
-Dari output yang dihasilkan baik ketika fulfilled ataupun rejected masih berupa
+ Dari output yang dihasilkan baik ketika fulfilled ataupun rejected masih berupa
 Promise , bukan nilai yang dibawa oleh fungsi resolve atau reject itu sendiri.
 Lantas bagaimana cara untuk mengakses nilai yang dibawa oleh fungsi-fungsi
 tersebut? Caranya adalah dengan menggunakan method .then() yang tersedia

@@ -7,9 +7,6 @@ output pada console ditampilkan. Ini menunjukan bahwa Promise.all() akan
 mengembalikan nilai jika seluruh proses promise di dalamnya selesai dijalankan.
 Urutan nilai yang dihasilkan oleh method ini sesuai dengan urutan promise yang
 kita tentukan pada parameternya
-
-Nilai kopi arabika akan tetap berada di posisi pertama, meskipun proses
-pembuatannya memakan waktu paling lama.
 */
 const arabicaOrder = () => {
     return new Promise(resolve => {

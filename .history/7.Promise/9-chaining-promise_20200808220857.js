@@ -27,8 +27,6 @@ Menjelaskan kode melalui skenario terkadang sulit untuk dimengerti. Sebagian
 dari kita mungkin lebih nyaman membaca keseluruhan kodenya secara langsung.
 Berikut contoh kode dalam penerapan chaining promise berdasarkan skenario di
 atas.
-
-
  */
 const state = {
     isCoffeeMakerReady: true,

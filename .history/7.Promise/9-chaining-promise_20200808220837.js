@@ -14,20 +14,6 @@ akan mengembalikan resolve -> “Kopi berhasil dibuat”. Namun jika sebaliknya,
 mesin kopi tidak siap untuk digunakan, maka akan mengembalikan reject ->
 “Maaf mesin tidak dapat digunakan!”
 
-Setelah kita mendapatkan kopi dari fungsi makeCo ee . Lalu kopi tersebut
-dihidangkan dengan menggunakan fungsi servingToTable . Fungsi ini juga
-mengembalikan promise dengan resolve yang membawa nilai “Pesanan kopisudah selesa!” .
-
-Lalu kita gunakan method .then() yang terakhir untuk mencetak nilai yang
-dikembalikan oleh fungsi servingToTable .
-Kemudian yang paling terakhir adalah memanggil method .catch() . Di mana
-method ini akan menangani promise rejection yang terjadi. Entah itu disebabkan
-oleh biji kopi yang dipesan habis, ataupun mesin kopi tidak dapat digunakan.
-Menjelaskan kode melalui skenario terkadang sulit untuk dimengerti. Sebagian
-dari kita mungkin lebih nyaman membaca keseluruhan kodenya secara langsung.
-Berikut contoh kode dalam penerapan chaining promise berdasarkan skenario di
-atas.
-
 
  */
 const state = {

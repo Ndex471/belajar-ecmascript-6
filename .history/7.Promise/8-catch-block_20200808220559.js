@@ -16,8 +16,6 @@ Method .catch() mirip seperti .then() . Namun method ini hanya menerima satu
 parameter function yang digunakan untuk rejected handler. Method .catch() ini
 akan terpanggil bilamana objek promise memiliki kondisi onRejected.
 
-Dengan menggunakan method catch() , kita dapat menerapkan prinsip separation
-of concerns sekaligus membuat kodenya lebih rapi.
 */
 const executorFunction = (resolve, reject) => {
   const isCoffeeMakerReady = false;
