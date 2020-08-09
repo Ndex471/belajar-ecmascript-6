@@ -41,7 +41,8 @@ console.log(coffee);
 } catch(rejectedReason) {
 
 console.log(rejectedReason);
-}
-}
-makeCoffee();
+ }
+ }
+
+ makeCoffee();
  */

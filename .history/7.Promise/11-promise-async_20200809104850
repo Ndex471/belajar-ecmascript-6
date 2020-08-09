@@ -1,0 +1,13 @@
+function makeCoffee() {
+ getCoffee(function(coffee) {
+   console.log(coffee)
+ })
+}
+ 
+ 
+makeCoffee();
+ 
+ 
+/* output
+Coffee didapatkan!
+*/

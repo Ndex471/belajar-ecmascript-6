@@ -38,10 +38,11 @@ try {
 
 const coffee = await getCoffee();
 console.log(coffee);
-} catch(rejectedReason) {
+ } catch(rejectedReason) {
 
 console.log(rejectedReason);
-}
-}
-makeCoffee();
+ }
+ }
+
+ makeCoffee();
  */

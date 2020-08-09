@@ -32,16 +32,4 @@ Mesin Kopi tidak bisa digunakan!
 */
 
 //using async await
-/**
- * async function makeCoffee() {
-try {
-
-const coffee = await getCoffee();
-console.log(coffee);
-} catch(rejectedReason) {
-
-console.log(rejectedReason);
-}
-}
-makeCoffee();
- */
+/

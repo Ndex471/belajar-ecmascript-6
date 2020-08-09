@@ -35,13 +35,14 @@ Mesin Kopi tidak bisa digunakan!
 /**
  * async function makeCoffee() {
 try {
-
+3.
 const coffee = await getCoffee();
-console.log(coffee);
-} catch(rejectedReason) {
-
+4. console.log(coffee);
+5. } catch(rejectedReason) {
+6.
 console.log(rejectedReason);
-}
-}
-makeCoffee();
+7. }
+8. }
+9.
+10. makeCoffee();
  */

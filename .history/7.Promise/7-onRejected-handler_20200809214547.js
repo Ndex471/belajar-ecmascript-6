@@ -27,21 +27,7 @@ const handlerRejected = rejectionReason => {
 const makeCoffee = new Promise(executorFunction);
 makeCoffee.then(handlerSuccess, handlerRejected);
 
+
 /* output:
 Mesin Kopi tidak bisa digunakan!
 */
-
-//using async await
-/**
- * async function makeCoffee() {
-try {
-
-const coffee = await getCoffee();
-console.log(coffee);
-} catch(rejectedReason) {
-
-console.log(rejectedReason);
-}
-}
-makeCoffee();
- */
