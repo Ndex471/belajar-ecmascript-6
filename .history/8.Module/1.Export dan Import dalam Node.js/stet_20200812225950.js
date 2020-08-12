@@ -22,13 +22,6 @@ memiliki objek module lokal yang memiliki properti exports. Properti tersebut
 digunakan untuk mendefinisikan nilai apa yang akan diekspor dari berkas
 tersebut.
 
-Kode module.exports = co eeStock membuat object co eeStock diterapkan
-sebagai nilai dari module.exports . Di mana nanti nilai properti exports ini akan
-digunakan (import) pada berkas JavaScript lain.
-Jika mencoba melihat nilai module yang ada pada berkas state.js dengan
-menambahkan kode console.log(module) di akhir berkasnya. Maka kita akan
-melihat objek co eeStock menjadi nilai dari properti exports .
-
 
 */
 const coffeeStock = {
