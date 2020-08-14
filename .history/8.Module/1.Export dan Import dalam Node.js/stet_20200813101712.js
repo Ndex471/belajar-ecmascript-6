@@ -29,9 +29,7 @@ Jika mencoba melihat nilai module yang ada pada berkas state.js dengan
 menambahkan kode console.log(module) di akhir berkasnya. Maka kita akan
 melihat objek coffeeStock menjadi nilai dari properti exports .
 
-untuk melakukan import atau menggunakan objek
-yang sudah di-export pada berkas lain? Caranya adalah dengan menggunakan
-method require()
+
 */
 const coffeeStock = {
     arabica: 100,

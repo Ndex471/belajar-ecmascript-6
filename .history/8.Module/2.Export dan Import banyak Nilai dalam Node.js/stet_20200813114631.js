@@ -14,5 +14,4 @@ module.exports = { coffeeStock, isCoffeeMakerReady };
  * untuk mengeksport kedua nilai (coffeeStock, isCoffeeMakerReady) dengan memanfaatkan objek literal
  * Sehingga jika kita lihat nilai module pada console, nilai dari properti exports merupakan sebuah objek yang menampung nilai dari objek coffeeStock dan variabel isCoffeeMakerReady
  Pada berkas index.js, kita gunakan teknik destructuring object dalam mendapatkan kedua nilainya
- Namun ingat, ketika menggunakan destructuring object, pastikan penamaan lokal variabelnya sesuai dengan properti objeknya. Jika tidak, maka variabel tersebut akan menghasilkan undefined.
  */

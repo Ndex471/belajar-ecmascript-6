@@ -21,17 +21,6 @@ class, kita gunakan keyword export default
 /**
  * untuk mengimpor nilainya? Kita dapat melakukannya
 dengan menggunakan keyword import ... from
-
-Berbeda dengan gaya Node.js, kita gunakan keyword import untuk
-menggantikan const , let , ataupun var dalam mendeklarasi variabel yang diimpor.
-Lalu di sana juga kita menggunakan from dalam menspesifikasikan lokasi berkas
-JavaScript-nya.
-Ketika menggunakan export default , kita dapat menggunakan penamaan apa
-saja ketika mendeklarasikan variabel dalam mengimpor nilainya
-
-Hal tersebut aman untuk dilakukan karena dengan menggunakan export default ,
-dapat dipastikan hanya satu nilai yang diekspor pada satu berkas JavaScript.
-Setelah kita berhasil mendapatkan nilai yang diekspor, kita dapat menggunakannilainya layaknya variabel lokal biasa.
  */
  import coffeeStock from "./state.js";
 

@@ -13,9 +13,6 @@ variabel yang diekspor. Jika terjadi kesalahan penulisan
 Namun jika kita tetap ingin mengubah penamaan variabel dari named import,
 kita bisa melakukannya dengan menambahkan keyword as setelah penamaan
 variabelnya.
-
-Setelah kita berhasil mendapatkan nilai yang diekspor, kita dapat menggunakan
-nilainya layaknya variabel lokal biasa
  */
 const coffeeStock = {
     arabica: 100,

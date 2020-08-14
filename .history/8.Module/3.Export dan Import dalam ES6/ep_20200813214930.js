@@ -29,9 +29,7 @@ JavaScript-nya.
 Ketika menggunakan export default , kita dapat menggunakan penamaan apa
 saja ketika mendeklarasikan variabel dalam mengimpor nilainya
 
-Hal tersebut aman untuk dilakukan karena dengan menggunakan export default ,
-dapat dipastikan hanya satu nilai yang diekspor pada satu berkas JavaScript.
-Setelah kita berhasil mendapatkan nilai yang diekspor, kita dapat menggunakannilainya layaknya variabel lokal biasa.
+
  */
  import coffeeStock from "./state.js";
 
