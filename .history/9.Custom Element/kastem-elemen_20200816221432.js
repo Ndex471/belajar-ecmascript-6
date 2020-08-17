@@ -24,7 +24,6 @@ HTML.
 Jangan lupa lampirkan script pada berkas yang digunakan untuk menuliskan
 class ImageFigure.
 Sampai saat ini, element <image-figure> berperan layaknya element <div> ataupun <span> yang tidak memiliki fungsi khusus. Karena kita belum menetapkan seperti apa jadinya element baru ini. 
-Untuk menetapkan seperti apa fungsi dari elemen baru, kita lakukan semuanya dengan menggunakan kode JavaScript yang dituliskan di dalam class ImageFigure. Tapi sebelum itu, kita pelajari dulu siklus hidup (life cycle) dari elemen HTML.
 
  */
 class ImageFigure extends HTMLElement {
