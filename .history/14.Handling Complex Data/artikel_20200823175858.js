@@ -11,16 +11,4 @@ export default article;
  * Seperti yang kita ketahui, nilai dari atribut pada elemen lazimnya
 hanya data primitif. Namun bagaimana jika custom elemen membutuhkan data
 yang kompleks atau memiliki nilai yang banyak seperti ini?
-
-Karena pembuatan custom element ini memanfaatkan sebuah JavaScript class,
-kita bisa memanfaatkan dengan menyimpan data tersebut pada properti class.
-Masih ingat pembahasan properti accessor atau getter/setter? Nah, dengan
-teknik ini kita dapat menetapkan data yang kompleks pada custom element.
-
-Karena kita memanggil fungsi render() di dalam set
-article(), maka custom element tidak akan menampilkan apapun pada browser
-sebelum nilai article-nya ditetapkan.
-Jika kita jalankan maka browser akan menampilkan element <article-item>
-dengan data yang didapat dari article.js.
-
  */

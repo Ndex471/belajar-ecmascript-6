@@ -20,7 +20,4 @@ teknik ini kita dapat menetapkan data yang kompleks pada custom element.
 Karena kita memanggil fungsi render() di dalam set
 article(), maka custom element tidak akan menampilkan apapun pada browser
 sebelum nilai article-nya ditetapkan.
-Jika kita jalankan maka browser akan menampilkan element <article-item>
-dengan data yang didapat dari article.js.
-
  */
